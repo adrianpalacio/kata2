@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class PersonLoader {
+package software.ulpgc.kata2;
+
+import java.util.List;
+
+public interface PersonLoader {
+    List<Person> load();
 }
